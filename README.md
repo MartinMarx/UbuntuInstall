@@ -54,6 +54,11 @@ sudo apt-get install feh
 sudo apt-get install compton
 sudo apt-get install rofi
 sudo apt-get install i3blocks
+sudo apt-get install arc-theme
+sudo add-apt-repository -u ppa:snwh/ppa
+sudo apt-get install moka-icon-theme faba-icon-theme faba-mono-icons
+sudo apt install arandr
+sudo apt install thunar
 ```
 
 Then you may install the FontAwesome font from the GitHub repo. Download the latest DESKTOP version [from the official repo](https://github.com/FortAwesome/Font-Awesome/releases).
@@ -91,11 +96,14 @@ gtk-font-name="System San Francisco Display 12" // with this line
 
 Now you can restart lxappearance and see that the default font has been updated
 
-* git
-* gcc
-* i3
-* feh
-* compton
-* nm-applet
-* rofi
+## Useful programs
+
+### Atom
+
+First, download atom package from [atom.io](https://atom.io/).
+Then install it:
+```bash
+sudo dpkg -i ~/Downloads/atom-amd64.deb
+sudo apt install atom
+```
 
